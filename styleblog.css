@@ -1,0 +1,243 @@
+/* Barra Do LOgo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #2e948a;
+  width: 1440px;
+  height: 117px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header-logo {
+  margin-left: 82px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 82px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+  width: 1440px;
+  height: 450px;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width:480px) {
+  main {
+    flex-direction: column;
+  }
+
+}
+
+.main-text {
+  width: 32rem;
+
+}
+
+.main-text span {
+  color: #009688;
+  font-size: 47px;
+  font-weight: 700;
+}
+
+.main-text p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+/* Corpo do Texto */
+
+.fundo-conteudo {
+  display: flex;
+  width: 1440px;
+  height: 1750px;
+  background-color: #e5e5e5;
+  margin-top: 24px;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.coluna1, .coluna2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 1750px;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 390px;
+
+
+}
+
+.retangulo {
+  height: 259px;
+  width: 518px;
+  background-color: #c4c4c4;
+
+}
+
+.fundo-conteudo span {
+  color: #FF4081;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.fundo-conteudo p {
+  font-size: 17px;
+  font-weight: 300;
+  color: black;
+  width: 518px;
+}
+
+footer {
+  display: flex;
+  background-color: #2e948a;
+  width: 1440px;
+  height: 207px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  margin-left: 10px;
+
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: space-between;
+  height: 100px;
+}
+
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.footer-buttons button {
+
+  border: 2px solid #FFFFFF;
+  border-radius: 62px;
+  background-color: #2e948a;
+  color: #FFFFFF;
+  height: 51px;
+  width: 289px;
+
+}
+
+/*  
+
+
+
+.Cursos {
+  color: red;
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.Blog {
+  color: red;
+  justify-content: flex-end;
+
+}
+
+
+
+.Contato {
+  color: red;
+  display: flex;
+
+  align-items: flex-end;
+}
+*/
+
+
+/* Imagem do Livro  */
+
+.Imagen2 {
+  width: 405px;
+  height: 405px;
+
+}
+
+.logo2 {
+
+  height: 50px;
+  width: 70px;
+  margin-top: 520px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+/* Rodaper footer */
+
+
+}
+
+/* link para ir para os texto Menu */
+
+
+/* Button {
+  background-color: #419488;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 15px;
+  width: 207px;
+  height: 35px;
+  margin-bottom: 5px;
+  align-items: center; */
+}
+
+
+
+/* retangulos de Texto */
+
+.Retângulo {
+
+  height: 230px;
+  width: 300px;
+  border: 1px;
+  background-color: #C4C4C4;
